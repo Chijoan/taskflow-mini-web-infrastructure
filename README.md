@@ -6,14 +6,14 @@ The project demonstrates a clear understanding of **basic web infrastructure con
 
 This project was developed for the **Mini Web Infrastructure Summative Assessment**.
 
----
+
 
 ## Live Demo
 **Live Application URL:**  [https://chijoan.github.io/taskflow-mini-web-infrastructure/](https://chijoan.github.io/taskflow-mini-web-infrastructure/)
 
 The application is publicly accessible and deployed using **GitHub Pages**.
 
----
+
 
 ## Problem Statement
 Many users need a lightweight way to manage daily tasks without installing heavy applications or creating user accounts.
@@ -21,7 +21,7 @@ Most existing solutions require authentication, databases, and backend servers.
 
 TaskFlow solves this problem by providing a **browser-based task manager** that runs entirely on the client side and can be accessed instantly through a web browser.
 
----
+
 
 ## Project Idea
 TaskFlow is designed as a **Minimum Viable Product (MVP)** to demonstrate how traditional web infrastructure works using **static files**.
@@ -31,7 +31,7 @@ The focus of the project is understanding:
 - How web servers deliver static files
 - How HTML, CSS, and JavaScript work together to create an interactive web application
 
----
+
 
 ## Application Features
 - Add new tasks
@@ -44,7 +44,7 @@ The focus of the project is understanding:
 - Responsive and user-friendly interface
 - Background image with blended glass UI design
 
----
+
 
 ## Technology Stack
 - **HTML** – Defines the structure of the application
@@ -52,9 +52,11 @@ The focus of the project is understanding:
 - **JavaScript (Vanilla)** – Manages application logic and user interaction
 - **GitHub Pages** – Used for static web hosting and deployment
 
----
+
 
 ## Project Structure
+
+```
 taskflow-mini-web-infrastructure/
 ├── index.html # Main HTML file
 ├── style.css # Application styling
@@ -62,9 +64,9 @@ taskflow-mini-web-infrastructure/
 ├── image/
 │ └── image1.jpg # Background image
 └── README.md # Project documentation
+```
 
 
----
 
 ## How to Run the Application Locally
 The application runs entirely on the client side and does not require any backend server.
@@ -77,7 +79,7 @@ Steps:
 
 Any modern web browser (Chrome, Edge, Firefox) can run the application.
 
----
+
 
 ## How the Application Is Deployed
 The application is deployed as a **static website** using **GitHub Pages**.
@@ -87,7 +89,7 @@ The deployment source was set to the **main branch** and **root directory**, all
 
 Once deployed, the application becomes accessible through a public URL.
 
----
+
 
 ## Hosting Platform Used and Why
 **GitHub Pages** was used as the hosting platform.
@@ -100,7 +102,7 @@ GitHub Pages is suitable for this project because:
 
 This makes it ideal for a frontend-only web application like TaskFlow.
 
----
+
 
 ## Basic Web Infrastructure Explanation
 - **Browser:** Sends requests to the web server, renders HTML content, applies CSS styles, and executes JavaScript.
@@ -110,7 +112,7 @@ This makes it ideal for a frontend-only web application like TaskFlow.
 
 No backend server or database is involved.
 
----
+
 
 ## Assumptions and Design Choices
 - The application does not use a backend server.
@@ -119,8 +121,10 @@ No backend server or database is involved.
 - The application follows a lightweight MVP design.
 - The focus is on understanding web infrastructure rather than advanced frameworks.
 
----
+
 
 ## Conclusion
 TaskFlow demonstrates how a complete web application can be built, deployed, and accessed using **only frontend technologies** and **classic web infrastructure concepts**.
 It clearly shows how browsers, web servers, and static files interact to deliver a functional web application.
+
+---
